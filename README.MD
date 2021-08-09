@@ -11,7 +11,7 @@ Também é necessário que as portas "9999" e "3306" estejam livres no sistema
 - Para clonar o projeto:
 
 ```
-git clone {url do repositório}
+git clone https://github.com/IgorDmoura/product-ms
 ```
 
 - Para acessar o projeto clonado:
