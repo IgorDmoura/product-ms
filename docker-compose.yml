@@ -1,0 +1,23 @@
+version: '2.4'
+
+services:
+  db:
+    image: mysql
+    container_name: mysql_compasso
+    environment:
+      MYSQL_ROOT_PASSWORD: teste
+      MYSQL_USER: compasso
+      MYSQL_PASSWORD: teste
+      MYSQL_DATABASE: teste_compasso
+    ports:
+      - "3306:3306"
+    volumes:
+      - teste_compasso:/var/lib/mysql
+    mem_limit: 512m
+
+volumes:
+  teste_compasso:
+
+
+
+
