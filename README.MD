@@ -1,7 +1,5 @@
 #Product MS
 
-Micro Serviço desenvolvido para o teste da Compasso UOL
-
 ##Configuração para execução do projeto em ambiente local
 
 Para executar o projeto localmente é necessário a instalação do Docker e Docker Compose
